@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ComponentScan
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
+“@RestController”
 class HelloConfig {
 
 }

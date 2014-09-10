@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication
  * @author saung
  * @since 1.0
  */
+
+"@RequestMapping(value=Array("/"))"
 object HelloWebApplication {
 
 	def main(args: Array[String]) {
