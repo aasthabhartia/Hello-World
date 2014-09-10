@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication
  * @since 1.0
  */
 
-@RequestMapping(value=Array("/"))
+
 object HelloWebApplication {
 
 	def main(args: Array[String]) {
