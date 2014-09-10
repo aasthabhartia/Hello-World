@@ -10,7 +10,7 @@ import scala.collection.JavaConversions._
 
 @Controller
 @EnableAutoConfiguration
-class HelloWebApplication {
+class HelloConfig {
 
   @RequestMapping("/")
   @ResponseBody
