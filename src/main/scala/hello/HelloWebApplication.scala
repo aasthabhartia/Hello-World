@@ -12,7 +12,7 @@ import org.springframework.boot.SpringApplication
 
 object HelloWebApplication {
 
-def main(args: Array[String]) {
-  SpringApplication.run(classOf[SampleController]);
-}
+  def main(args: Array[String]) {
+    SpringApplication.run(classOf[HelloWebApplication], args)
+  }
 }
