@@ -15,7 +15,5 @@ import org.springframework.context.annotation.ComponentScan
 @ComponentScan
 
 class HelloConfig {
-
 println("Hello World!")
-
 }
