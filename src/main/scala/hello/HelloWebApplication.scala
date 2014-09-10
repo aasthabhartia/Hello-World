@@ -13,6 +13,6 @@ import org.springframework.boot.SpringApplication
 object HelloWebApplication {
 
   def main(args: Array[String]) {
-    SpringApplication.run(classOf[HelloConfig], args)
+    SpringApplication.run(classOf[HelloConfig])
   }
 }

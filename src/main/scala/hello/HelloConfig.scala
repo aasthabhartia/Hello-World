@@ -12,7 +12,7 @@ import scala.collection.JavaConversions._
 @EnableAutoConfiguration
 class HelloConfig {
 
-  @RequestMapping("/")
+  @RequestMapping(value = Array("/"))
   @ResponseBody
   def home(): String = "Hello World!"
 }
